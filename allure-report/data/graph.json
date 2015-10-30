@@ -1,0 +1,36 @@
+{
+  "testCases" : [ {
+    "uid" : "420260f89b9afa35",
+    "name" : "addTest",
+    "title" : "Add test",
+    "time" : {
+      "start" : 1446234552171,
+      "stop" : 1446234557386,
+      "duration" : 5215
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "60336d25c6e6ca80",
+    "name" : "addTest",
+    "title" : "Add test",
+    "time" : {
+      "start" : 1446234552171,
+      "stop" : 1446234558333,
+      "duration" : 6162
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "2ce525153a427dbb",
+    "name" : "addTest",
+    "title" : "Add test",
+    "time" : {
+      "start" : 1446234552171,
+      "stop" : 1446234557386,
+      "duration" : 5215
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

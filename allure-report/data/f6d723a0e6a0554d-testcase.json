@@ -1,0 +1,50 @@
+{
+  "uid" : "f6d723a0e6a0554d",
+  "name" : "testMethodOne_1",
+  "title" : "Test method one 1",
+  "time" : {
+    "start" : 1446232904475,
+    "stop" : 1446232904476,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : ": Skipped due to dependency on other skipped or failed test methods",
+    "stackTrace" : "ru.yandex.qatools.allure.testng.AllureTestListener$1: Skipped due to dependency on other skipped or failed test methods\n\tat ru.yandex.qatools.allure.testng.AllureTestListener.fireTestCaseCancel(AllureTestListener.java:356)\n\tat ru.yandex.qatools.allure.testng.AllureTestListener.onTestSkipped(AllureTestListener.java:171)\n\tat org.testng.internal.Invoker.runTestListeners(Invoker.java:1769)\n\tat org.testng.internal.Invoker.runTestListeners(Invoker.java:1761)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:710)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:834)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1142)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:771)\n\tat org.testng.TestRunner.run(TestRunner.java:621)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:357)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:259)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1176)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1101)\n\tat org.testng.TestNG.run(TestNG.java:1009)\n\tat com.appium.manager.ParallelThread.testRunnerTestNg(ParallelThread.java:69)\n\tat com.appium.manager.ParallelThread$1.run(ParallelThread.java:42)\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\n"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "CANCELED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "68bde084fa411f16",
+    "name" : "Command line suite : Command line test",
+    "title" : "Command line suite : Command line test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "INsaikrisv.local"
+  }, {
+    "name" : "thread",
+    "value" : "44686@INsaikrisv.local.pool-1-thread-1(13)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Command line suite : Command line test"
+  }, {
+    "name" : "suite-title",
+    "value" : "Command line suite : Command line test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

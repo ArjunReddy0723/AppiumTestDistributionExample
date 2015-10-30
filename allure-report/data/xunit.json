@@ -1,0 +1,79 @@
+{
+  "time" : {
+    "start" : 1446234552171,
+    "stop" : 1446234558333,
+    "duration" : 6162
+  },
+  "testSuites" : [ {
+    "uid" : "38d9eb37e0ca0eaf",
+    "name" : "Command line suite : Command line test",
+    "title" : "Command line suite : Command line test",
+    "time" : {
+      "start" : 1446234552171,
+      "stop" : 1446234557386,
+      "duration" : 5215
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "420260f89b9afa35",
+      "name" : "addTest",
+      "title" : "Add test",
+      "time" : {
+        "start" : 1446234552171,
+        "stop" : 1446234557386,
+        "duration" : 5215
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "2ce525153a427dbb",
+      "name" : "addTest",
+      "title" : "Add test",
+      "time" : {
+        "start" : 1446234552171,
+        "stop" : 1446234557386,
+        "duration" : 5215
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "40a985da7e782ad8",
+    "name" : "com.paralle.tests.Runner : Command line test",
+    "title" : "com.paralle.tests.Runner : Command line test",
+    "time" : {
+      "start" : 1446234552171,
+      "stop" : 1446234558333,
+      "duration" : 6162
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "60336d25c6e6ca80",
+      "name" : "addTest",
+      "title" : "Add test",
+      "time" : {
+        "start" : 1446234552171,
+        "stop" : 1446234558333,
+        "duration" : 6162
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}
