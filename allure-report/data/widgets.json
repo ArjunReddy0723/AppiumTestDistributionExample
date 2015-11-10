@@ -2,17 +2,17 @@
   "hash" : "9ae4a52f46fbba0c959575303f697deb73e72d63",
   "data" : [ {
     "statistic" : {
-      "total" : 3,
-      "passed" : 3,
+      "total" : 20,
+      "passed" : 8,
       "pending" : 0,
-      "canceled" : 0,
+      "canceled" : 8,
       "failed" : 0,
-      "broken" : 0
+      "broken" : 4
     },
     "time" : {
-      "start" : 1446234552171,
-      "stop" : 1446234558333,
-      "duration" : 6162
+      "start" : 1446236145087,
+      "stop" : 1446236419447,
+      "duration" : 274360
     },
     "name" : "total",
     "type" : "TOTAL"
@@ -20,9 +20,13 @@
     "name" : "defects",
     "type" : "DEFECTS",
     "data" : [ {
-      "count" : 0,
-      "message" : "There are no defects!",
-      "status" : "PASSED"
+      "count" : 3,
+      "message" : "SessionNotCreatedException: A new session could not be created. (Original error: Could not find aapt. Please set the ANDROID_HOME environment variable with the Android SDK root directory path.) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 301 milliseconds\nBuild info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'\nSystem info: host: 'INsaikrisv.local', ip: '100.116.3.102', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.4', java.version: '1.8.0_51'\nDriver info: io.appium.java_client.android.AndroidDriver",
+      "status" : "BROKEN"
+    }, {
+      "count" : 1,
+      "message" : "SessionNotCreatedException: A new session could not be created. (Original error: Could not find aapt. Please set the ANDROID_HOME environment variable with the Android SDK root directory path.) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 167 milliseconds\nBuild info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'\nSystem info: host: 'INsaikrisv.local', ip: '100.116.3.102', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.4', java.version: '1.8.0_51'\nDriver info: io.appium.java_client.android.AndroidDriver",
+      "status" : "BROKEN"
     } ]
   }, {
     "name" : "xunit",
@@ -30,22 +34,12 @@
     "data" : [ {
       "title" : "Command line suite : Command line test",
       "statistic" : {
-        "total" : 2,
-        "passed" : 2,
+        "total" : 20,
+        "passed" : 8,
         "pending" : 0,
-        "canceled" : 0,
+        "canceled" : 8,
         "failed" : 0,
-        "broken" : 0
-      }
-    }, {
-      "title" : "com.paralle.tests.Runner : Command line test",
-      "statistic" : {
-        "total" : 1,
-        "passed" : 1,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 0,
-        "broken" : 0
+        "broken" : 4
       }
     } ]
   }, {
@@ -54,12 +48,12 @@
     "data" : [ {
       "title" : "Without feature",
       "statistic" : {
-        "total" : 3,
-        "passed" : 3,
+        "total" : 20,
+        "passed" : 8,
         "pending" : 0,
-        "canceled" : 0,
+        "canceled" : 8,
         "failed" : 0,
-        "broken" : 0
+        "broken" : 4
       }
     } ]
   }, {

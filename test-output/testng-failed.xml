@@ -3,12 +3,12 @@
 <suite name="Failed suite [Command line suite]">
   <test name="Command line test(failed)">
     <classes>
-      <class name="com.paralle.tests.AddTest">
+      <class name="com.paralle.tests.MultiplyTest">
         <methods>
           <include name="testopenBroswer"/>
-          <include name="addTest"/>
+          <include name="multiplyTest"/>
         </methods>
-      </class> <!-- com.paralle.tests.AddTest -->
+      </class> <!-- com.paralle.tests.MultiplyTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
