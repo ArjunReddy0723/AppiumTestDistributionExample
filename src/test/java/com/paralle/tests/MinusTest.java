@@ -2,6 +2,7 @@ package com.paralle.tests;
 
 
 
+import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
