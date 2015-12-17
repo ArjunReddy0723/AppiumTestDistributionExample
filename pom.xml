@@ -11,11 +11,11 @@
 		</repository>
 	</repositories>
 	<dependencies>
-		<dependency>
-			<groupId>com.github.saikrishna321</groupId>
-			<artifactId>AppiumTestDistribution</artifactId>
-			<version>v1.0.0</version>
-		</dependency>
+	<dependency>
+		<groupId>com.github.saikrishna321</groupId>
+		<artifactId>AppiumTestDistribution</artifactId>
+		<version>3.0.0</version>
+	</dependency>
 		<dependency>
 			<groupId>org.reflections</groupId>
 			<artifactId>reflections</artifactId>
