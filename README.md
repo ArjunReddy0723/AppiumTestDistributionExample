@@ -3,7 +3,11 @@
 Connect n+1 android devices and trigger the below command.
 
 Run Test
-  * mvn -Dtest=Runner test
+```
+mvn clean -Dtest=Runner test
+  
+```
+* Please make sure you give the absolute path of the apk in the config.properties
+* RUNNER can be set with parallel and distribute(Parallel will run the same test across devices n distribute will split the test across devices)
 
-To generate Junit HTML reports
-  * ant -buildfile build.xml
+Once the test run is completed, HTML report will b generated at root directory
