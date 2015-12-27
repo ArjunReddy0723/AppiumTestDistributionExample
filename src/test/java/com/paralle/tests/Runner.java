@@ -10,7 +10,6 @@ public class Runner {
 	public static void testApp() throws Exception {
 		 ParallelThread parallelThread = new ParallelThread();
 		 parallelThread.runner("com.paralle.tests");
-
 	}
 
 }
